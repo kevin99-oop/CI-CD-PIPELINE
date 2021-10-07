@@ -1,0 +1,660 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Inter', sans-serif!important;
+}
+.stickeybar
+{
+    background-color: blue;
+    height:40px;
+    color: white;
+    
+}
+#navbar_top .active 
+{
+    text-decoration-line: underline !important;
+    text-decoration-thickness: 2px !important;
+    color: blue!important;
+}
+.imghead{
+    background-image: url(main_new.jpg);
+    background-size: cover;
+    background-position: top;
+    padding-top: 200px;
+    width: 100%;
+    height: 90vh;
+    
+}
+.demo 
+{ 
+    color: blue;
+}
+.sticky-top 
+{
+    color: red;
+}
+.navbar{
+    color: black;
+}
+.imghead button{
+    font-size: 12px;
+    padding: 10px;
+}
+.fa-play-circle-o
+{
+    font-size: 23px!important;
+    margin-left: 10px;
+    
+}
+.card {
+    margin: 15px;   
+    min-width: 0;
+    
+  }
+.card-2 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%!important;
+    border: 0;
+  }
+ .card .fa, .fas{
+     font-size: 30px!important;
+ }
+ #about ,#company ,#corosal, #Teams, #FAQ, #Newsletter{
+    background-color:whitesmoke ;
+ }
+ #about .btn, h3 
+   {
+     text-align:center;
+ }
+
+#about p
+{
+text-align: center;
+}
+ .btn-circle.btn-sm {
+    width: 8%;
+    height: auto;
+    padding: 6px 0px;
+    border-radius: 30px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #dae0f5;
+    color: blue;
+}
+.img-thumbnail {
+        padding: 0px!important;
+        border: 0px!important; 
+        border-radius: .25rem;
+        max-width: 100%;
+        height: auto;
+    }
+    .btn-circle.btn-xl {
+        width: 50px;
+        height: 50px;
+        border-radius: 55px;
+        font-size: 18px; 
+        text-align: center;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    }
+.col-md-auto h6
+{
+    font-size: 15px;
+}
+.col-md-auto .small
+{
+    font-size: 15px;
+}
+
+
+.com.img{
+padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+.card-3
+{
+    background-color: #dae0f5!important;
+    width: 100%!important;
+    border: 0px!important;
+    position: absolute;
+}
+#Services .btn-circle.btn-sm {
+    width: 10%;
+    height: auto;
+    padding: 6px 0px;
+    border-radius: 30px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #dae0f5;
+    color: blue;
+}
+
+.btn-circle.btn-md {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 40%;
+    font-size: 10%!important; 
+    text-align: center;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.card-4{
+    background-color: transparent!important;
+    width: 100%!important;
+    border: 1px solid #dae0f5!important;
+    position: absolute;
+    padding: 50px;
+    font-size: 15px;
+    height: 10%;
+}
+#Services .fa{
+    font-size: 20px;
+}
+
+.card-4 .fa, .fas{
+    font-size: 20px!important;
+}
+  
+#Portfolio .btn-circle.btn-sm {
+    width: 12%;
+    height: auto;
+    padding: 6px 0px;
+    border-radius: 30px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #dae0f5!important;
+    color: blue;
+}
+#Portfolio .col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+}
+.card-5 .card-body
+{
+    background-color: white!important;
+   
+}
+
+#Teams
+{
+    margin-bottom: 10px!important;
+}
+
+
+#info .btn-circle.btn-md {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px!important;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    border-radius: 80%;
+    border: 4px solid #fff;
+    margin-top: -50px;
+    font-size: 25px!important;
+}
+
+
+#corosal
+{
+    background-image: url('corosal.jpg');
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 100px;
+    width: 100%;
+    height: 450px;
+    filter: contrast(105%) brightness(80%);
+    
+}
+
+#corosal .img3 {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px!important;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    border-radius: 80%;
+    border: 4px solid #fff;
+    margin-top: -50px;
+    font-size: 25px!important;
+}
+#corosal .item{
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+#Pricing .btn-circle.btn-sm {
+    width: 10%;
+    height: auto;
+    padding: 6px 0px;
+    border-radius: 30px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #dae0f5!important;
+    color: blue;
+}
+
+#Pricing .card-6
+{
+    width: 100%;
+    height: auto;
+    background-color: white!important;
+    position: relative;
+}
+
+#Pricing .month
+{
+    font-size: 18px;
+}
+
+#Pricing .btn
+{
+    font-size: 12px;
+    padding: 10px;
+    width: 60%;
+}
+
+.accordion-item
+{
+    background-color: transparent;
+    color: black;
+    
+}
+
+.accordion-link
+{
+    font-size: 18px;
+    color: blue;
+
+}
+.accordion-link .fas.fa-minus
+{
+    display: none;
+}
+.ans
+{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    font-size: 16px;
+    
+}
+.accordion-item:target .ans{
+    max-height: 60rem;
+}
+#FAQ
+{
+    height: 760px;
+}
+#Contact .btn-circle.btn-sm {
+    width: 10%;
+    height: auto;
+    padding: 6px 0px;
+    border-radius: 30px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #dae0f5!important;
+    color: blue;
+}
+#Contact .btn-circle.btn-md {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px!important;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+    border: 4px dotted #0275d8;
+    font-size: 20px!important;
+   
+}
+
+#Contact .btn-circle.btn-md:hover
+
+{
+    background-color: #fff !important;
+text-decoration: none;
+}
+
+#Contact iframe{
+    width: 105%!important;
+    height: 400px!important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 0;
+}
+
+#Contact .card.card-8
+{
+    top: 0;
+    margin-left: 45px;
+    margin-top: 0;
+    width: 10%!important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%!important;
+    border: 0;
+
+}
+#Contact .message
+{
+    font-size: 15px;
+}
+
+
+#Newsletter .input-group
+{
+    width: 60%!important;
+    position: relative;
+    top: 50%;
+    left: 20%;
+}
+
+
+.Center {
+    width:200px;
+    height:200px;
+    position: fixed;
+    background-color: blue;
+ 
+}
+
+#Newsletter{
+    height:300px!important;
+}
+
+#corosal img{
+    width: 100px;
+    padding: 6px 0px;
+    border-radius: 80px;
+    text-align: center;  
+}
+
+#corosal .designation
+{
+    font-size: 15px;
+   
+}
+#corosal .btn.owl-dot.active{
+    color: blue;
+}
+
+/**/
+
+.filtering {
+    margin-bottom: 40px;
+}
+.filtering span {
+    border-bottom: 2px solid transparent;
+    color: #282b2d;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    display: inline-block;
+    margin-bottom: 5px;
+    
+}
+
+
+
+.grid-item {
+  
+    width: 90%!important;
+    margin: 0;
+    padding: 0;
+}
+
+
+/**/
+.footernetwork
+{font-size: 13px;}
+#footer .fab 
+{
+    font-size: 30px!important;
+}
+
+
+
+  .owl-theme .owl-dots .owl-dot.active span, 
+  .owl-theme .owl-dots .owl-dot:hover span {
+      background: #2caae1!important;
+  }
+
+
+#Portfolio img
+{
+    width: 100%;
+}  
+
+ 
+/*----------------Responsive code-------------*/
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+}
+
+/*responsive*/
+@media screen and (max-width: 320px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    .stickeybar{
+            font-size: 10px;
+            padding: 1px;
+    }
+   #card .col {
+        -ms-flex-preferred-size: 0;
+        flex-basis:33.333%;
+        max-width:33.333%;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 41%;
+        display: flex;
+        font-size: 17px;
+    }
+    .btn-circle.btn-sm {
+        width: 27%;
+        font-size: 16px;
+    }
+    .col-lg-2.img{
+        margin-bottom: 50px;
+        width: 10%;
+    }
+    .col-md-auto{
+        width: 100%;
+        margin-left: 30px;
+        margin-left: 73px;
+        margin-top: -105px;
+    }
+    #info .col {
+        -ms-flex-preferred-size: 0;
+        flex-basis:33.333%;
+        max-width:33.333%;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+        display: block;
+        font-size: 15px;
+        margin-right: 30px;
+    }
+    #Services .btn-circle.btn-sm {
+        width: 27%;
+        font-size: 16px;
+    }
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-height: 145px;
+        padding: 1.25rem;
+    }
+    #company .row{
+        display: flex;
+
+    }
+    #company .col-sm{
+        width:50%;
+        left: -30px;
+    }
+    #company img.img-thumbnail
+    {
+       margin: 10px;
+    }
+    #company .imgl{
+        margin-left: 85px!important;
+    }
+    #Services .card {
+        /* position: relative; */
+        display: -ms-flexbox;
+        display: table-header-group;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+        width: 90%!important;
+    }
+
+    #corosal img {
+    width: px;
+    padding: 6px 0px;
+    border-radius: 80px;
+    text-align: center;
+    filter: brightness(29%) contrast(100%);
+    }
+    #corosal .owl-carousel.owl-drag .owl-item {
+        
+        filter: brightness(4);
+    }
+    #corosal .h5, h5 {
+        font-size: 1.25rem;
+        color: black;
+    }
+    #corosal {
+        height: auto;
+    }
+    #corosal .designation {
+        font-size: 10px;
+        color: black;
+    }
+    #Portfolio .btn-circle.btn-sm {
+        width: 30%;
+        font-size: 16px;
+    }
+    #Portfolio .mb-5, .my-5 {
+        margin-bottom:  10px!important;
+    }
+    #Portfolio img{
+        width: 100%;
+        height: auto;
+        margin-left:5px ;
+    }
+   
+    #Teams .col {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 33.333%;
+        max-width: 33.333%;
+       
+       
+        max-width: 100%;
+        display: block;
+       left: 30px;
+        margin-right: 60px;
+        margin-bottom: 20px;
+    }
+    #Teams .h5, h5 {
+        font-size: 19px;
+    }
+    #Pricing  .btn-circle.btn-sm {
+        width: 30%;
+        font-size: 16px;
+    }
+    #Pricing .col{    
+        right: 15px;
+        width: 100%;
+        height: auto;
+    }
+    #Pricing .btn {
+        font-size: 12px;
+        padding: 10px;
+        width: 80%;
+    }
+    #FAQ
+    {
+        height: auto;
+    }
+    #Contact .btn-circle.btn-sm {
+        width: 30%;
+    }
+    #Contact .card {
+       
+         word-wrap: inherit; 
+         padding: 0px;
+      
+    }
+    #Contact .col-6 {
+        -ms-flex: 0 0 50%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    #Contact .col-6 {
+        -ms-flex: 0 0 50%;
+        flex: 100%;
+        max-width: 95%;
+    }
+    #Contact .card.card-8 {
+        top: 10px;
+         margin-left:15px; 
+         margin-top: 0; 
+        
+    }
+    #Newsletter .input-group {
+         width: 100%!important;
+        position: relative;
+        top: 50%;
+     left:0%;
+    }
+    #footer .pr-5, .px-5 {
+         padding-right: 0px!important; 
+    }
+#footer .mt-5, .my-5 {
+     margin-top: 10px!important;
+     
+}
+    #footer .fa, .fas{
+        color: white!important;
+    }
+    
+    #footer .list-unstyled.quick-links.link{
+        margin-right: 29px;
+    }
+    #footer .list-unstyled.quick-links.link1{
+        margin-right: 10px;
+    }
+    
+  }
